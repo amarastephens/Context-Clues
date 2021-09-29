@@ -3,7 +3,7 @@ var locations = ["Beach", "Forest", "House", "City Hall", "Hawaii", "Mexico", "B
 var weapons = ["knife", "gun", "apple", "stick", "dog", "wire", "bat", "glass", "can", "banana", "pear", "hand", "sword", "baseball", "rope", "pie", "mango", "mase", "watermelon", "kiwi" ]
 
 
-function loop () {
+
 for (var i=1; i<=100; i++) {
 
 var h3 = document.createElement("h3"); 
@@ -22,5 +22,3 @@ function clickFunc () {
 }
 return clickFunc
 }
-}
-loop ()
